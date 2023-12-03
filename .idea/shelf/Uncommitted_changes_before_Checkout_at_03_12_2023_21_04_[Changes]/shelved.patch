@@ -1,0 +1,34 @@
+Index: main.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>from fct import list_of_files\r\nimport os\r\ndirectory = \"./speeches\"\r\nfiles_names = list_of_files(directory, \"txt\")\r\n--------------------------------\r\nlist_nom = []\r\nfor filename in files_names:\r\n    if 'Nomination_Chirac1.txt' in filename:\r\n        nom = 'Chirac'\r\n        if nom not in list_nom:\r\n            list_nom.append(nom)\r\n    elif 'Nomination_Chirac2.txt' in filename:\r\n        nom = 'Chirac'\r\n        if nom not in list_nom:\r\n            list_nom.append(nom)\r\n    elif 'Nomination_Giscard dEstaing.txt' in filename:\r\n        nom = 'Giscard dEstaing'\r\n        if nom not in list_nom:\r\n            list_nom.append(nom)\r\n    elif 'Nomination_Hollande.txt' in filename:\r\n        nom = 'Hollande'  # Fixed the typo in 'Hollande'\r\n        if nom not in list_nom:\r\n            list_nom.append(nom)\r\n    elif 'Nomination_Macron.txt' in filename:\r\n        nom = 'Macron'\r\n        if nom not in list_nom:\r\n            list_nom.append(nom)\r\n    elif 'Nomination_Mitterrand1.txt' in filename:\r\n        nom = 'Mitterrand'\r\n        if nom not in list_nom:\r\n            list_nom.append(nom)\r\n    elif 'Nomination_Mitterrand2.txt' in filename:\r\n        nom = 'Mitterrand'\r\n        if nom not in list_nom:\r\n            list_nom.append(nom)\r\n------------------------------\r\nfor i in range(len(list_nom)):\r\n    if list_nom[i] == 'Chirac':\r\n        list_nom[i] = 'Jacques Chirac'\r\n    elif list_nom[i] == 'Giscard dEstaing':\r\n        list_nom[i] = 'Valéry Giscard dEstaing'\r\n    elif list_nom[i] == 'Hollande':\r\n        list_nom[i] = 'François Hollande'\r\n    elif list_nom[i] == 'Macron':\r\n        list_nom[i] = 'Emmanuel Macron'\r\n    elif list_nom[i] == 'Mitterand':\r\n        list_nom[i] = 'François Mitterrand'\r\nprint(list_nom)\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/main.py b/main.py
+--- a/main.py	(revision ddf1df3ebc2e0be3ba840447f3844671bc0c95f3)
++++ b/main.py	(date 1701633853932)
+@@ -2,7 +2,7 @@
+ import os
+ directory = "./speeches"
+ files_names = list_of_files(directory, "txt")
+---------------------------------
++#--------------------------------
+ list_nom = []
+ for filename in files_names:
+     if 'Nomination_Chirac1.txt' in filename:
+@@ -33,7 +33,7 @@
+         nom = 'Mitterrand'
+         if nom not in list_nom:
+             list_nom.append(nom)
+-------------------------------
++#------------------------------
+ for i in range(len(list_nom)):
+     if list_nom[i] == 'Chirac':
+         list_nom[i] = 'Jacques Chirac'
+@@ -47,3 +47,5 @@
+         list_nom[i] = 'François Mitterrand'
+ print(list_nom)
+ 
++#caca
++

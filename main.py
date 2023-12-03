@@ -1,8 +1,9 @@
 from fct import list_of_files
+from fct import filemodif
 import os
 directory = "./speeches"
 files_names = list_of_files(directory, "txt")
---------------------------------
+'''--------------------------------'''
 list_nom = []
 for filename in files_names:
     if 'Nomination_Chirac1.txt' in filename:
@@ -33,7 +34,7 @@ for filename in files_names:
         nom = 'Mitterrand'
         if nom not in list_nom:
             list_nom.append(nom)
-------------------------------
+#------------------------------
 for i in range(len(list_nom)):
     if list_nom[i] == 'Chirac':
         list_nom[i] = 'Jacques Chirac'
@@ -47,3 +48,6 @@ for i in range(len(list_nom)):
         list_nom[i] = 'François Mitterrand'
 print(list_nom)
 
+#minuscules clean
+
+filemodif(files_names)
