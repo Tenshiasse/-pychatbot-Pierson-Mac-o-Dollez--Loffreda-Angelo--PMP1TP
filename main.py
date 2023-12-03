@@ -2,8 +2,7 @@ from fct import list_of_files
 import os
 directory = "./speeches"
 files_names = list_of_files(directory, "txt")
-print(files_names)
-
+--------------------------------
 list_nom = []
 for filename in files_names:
     if 'Nomination_Chirac1.txt' in filename:
@@ -34,4 +33,16 @@ for filename in files_names:
         nom = 'Mitterrand'
         if nom not in list_nom:
             list_nom.append(nom)
+------------------------------
+for i in range(len(list_nom)):
+    if list_nom[i] == 'Chirac':
+        list_nom[i] = 'Jacques Chirac'
+    elif list_nom[i] == 'Giscard dEstaing':
+        list_nom[i] = 'Valéry Giscard dEstaing'
+    elif list_nom[i] == 'Hollande':
+        list_nom[i] = 'François Hollande'
+    elif list_nom[i] == 'Macron':
+        list_nom[i] = 'Emmanuel Macron'
+    elif list_nom[i] == 'Mitterand':
+        list_nom[i] = 'François Mitterrand'
 print(list_nom)
