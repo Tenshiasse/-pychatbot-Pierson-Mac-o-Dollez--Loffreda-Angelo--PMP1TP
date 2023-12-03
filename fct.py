@@ -1,6 +1,6 @@
 import os
-def list (directory, extension):
 
+def list_files(directory, extension):
     files_names = []
     for filename in os.listdir(directory):
         if filename.endswith(extension):

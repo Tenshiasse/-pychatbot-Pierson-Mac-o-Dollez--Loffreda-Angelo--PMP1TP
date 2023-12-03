@@ -1,3 +1,3 @@
 directory = "./speeches"
-a=list(directory,"txt")
-print(a)
+file_list = list_files(directory, "txt")
+print(file_list)
