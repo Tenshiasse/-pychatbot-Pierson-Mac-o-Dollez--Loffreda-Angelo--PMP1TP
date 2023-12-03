@@ -46,3 +46,4 @@ for i in range(len(list_nom)):
     elif list_nom[i] == 'Mitterand':
         list_nom[i] = 'François Mitterrand'
 print(list_nom)
+
