@@ -33,3 +33,4 @@ def clean(directory):
             for ligne in liste:
                 sortie.write(ligne)
 
+print("ohla")
