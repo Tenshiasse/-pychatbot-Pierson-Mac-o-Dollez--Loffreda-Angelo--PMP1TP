@@ -32,5 +32,3 @@ def clean(directory):
         with open(directory_sortie, "w", encoding="utf8") as sortie:
             for ligne in liste:
                 sortie.write(ligne)
-
-print("ohla")

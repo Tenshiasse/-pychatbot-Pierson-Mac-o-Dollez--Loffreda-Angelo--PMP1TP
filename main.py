@@ -1,5 +1,5 @@
 from fct import list_of_files
-from fct import filemodif
+from fct import clean
 import os
 directory = "./speeches"
 files_names = list_of_files(directory, "txt")
@@ -48,6 +48,4 @@ for i in range(len(list_nom)):
         list_nom[i] = 'François Mitterrand'
 print(list_nom)
 
-#minuscules clean
-
-filemodif(files_names)
+ficher_clean = clean("./speeches")
