@@ -1,5 +1,6 @@
 from fct import list_of_files
 from fct import clean
+from fct import tf
 import os
 directory = "./speeches"
 files_names = list_of_files(directory, "txt")
@@ -49,3 +50,8 @@ for i in range(len(list_nom)):
 print(list_nom)
 
 ficher_clean = clean("./speeches")
+
+fichiers = [f for f in os.listdir(directory) if f.endswith(".txt")]
+
+    for fichier in fichiers:
+        occurrence_mot = occurrence()
