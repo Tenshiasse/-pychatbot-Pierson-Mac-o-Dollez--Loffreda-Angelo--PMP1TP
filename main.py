@@ -1,5 +1,6 @@
 from fct import list_of_files
 from fct import clean
+from fct import TF_IDF
 import os
 directory = "./speeches"
 files_names = list_of_files(directory, "txt")
@@ -49,3 +50,7 @@ for i in range(len(list_nom)):
 print(list_nom)
 
 ficher_clean = clean("./speeches")
+
+for filename in files_names:
+    repertoire_nom = os.path.join("./clean", filename)
+    tf_idf_matrix = TF_IDF(repertoire_nom)
