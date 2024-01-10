@@ -179,7 +179,7 @@ def nation(list):
     n=i
     m=1
     i=0
-    while i<len(tf_idf[1][n]-1):
+    while i<len(tf_idf[1][n-1]):
         if tf_idf[1][n][i]!=0.0:
             if m>tf_idf[1][n][i]:
                 m=tf_idf[1][n][i]
@@ -205,7 +205,7 @@ def ecologie(list):
         i+=1
     n=i
     nom=len(president_nom)
-    for i in range(len(tf_idf[1][n]-1)):
+    for i in range(len(tf_idf[1][n-1])):
         if tf_idf[1][n][i]!=0.0:
             for j in range(len(president_nom)):
                 if president[i]== president_nom[j] and j<nom:
