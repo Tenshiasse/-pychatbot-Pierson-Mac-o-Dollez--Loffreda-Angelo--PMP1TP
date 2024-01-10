@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="637f19de-755e-4c9e-8545-84d2b7c4e394" name="Changes" comment="add tf idf modif on tf branch v2">
+    <list default="true" id="637f19de-755e-4c9e-8545-84d2b7c4e394" name="Changes" comment="add tf idf modif on tf branch pas le bon">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fct.py" beforeDir="false" afterPath="$PROJECT_DIR$/fct.py" afterDir="false" />
     </list>
@@ -112,7 +112,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704915416318</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add tf idf modif on tf branch pas le bon">
+      <option name="closed" value="true" />
+      <created>1704926410532</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1704926410532</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,14 +154,15 @@
     <MESSAGE value="added a gitignore" />
     <MESSAGE value="add tf idf modif on tf branch" />
     <MESSAGE value="add tf idf modif on tf branch v2" />
-    <option name="LAST_COMMIT_MESSAGE" value="add tf idf modif on tf branch v2" />
+    <MESSAGE value="add tf idf modif on tf branch pas le bon" />
+    <option name="LAST_COMMIT_MESSAGE" value="add tf idf modif on tf branch pas le bon" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
-          <line>46</line>
+          <line>56</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

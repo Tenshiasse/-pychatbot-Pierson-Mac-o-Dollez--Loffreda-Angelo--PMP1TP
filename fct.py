@@ -212,3 +212,4 @@ def ecologie(list):
                     nom=j
     print(f"Le premier président qui a parlé de l'écologie est {president_nom[nom]}.")
 #Cette fonction renvoie les mots évoquées par tous les présidents et qui ne sont pas non important.Elle n'a pas besoin de variable d'entré pour cette raison.
+
