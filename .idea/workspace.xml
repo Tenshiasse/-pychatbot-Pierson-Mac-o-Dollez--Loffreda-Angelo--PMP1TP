@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="637f19de-755e-4c9e-8545-84d2b7c4e394" name="Changes" comment="added a gitignore">
+    <list default="true" id="637f19de-755e-4c9e-8545-84d2b7c4e394" name="Changes" comment="add tf idf modif on tf branch v2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fct.py" beforeDir="false" afterPath="$PROJECT_DIR$/fct.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +96,23 @@
       <option name="project" value="LOCAL" />
       <updated>1702650152017</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add tf idf modif on tf branch">
+      <option name="closed" value="true" />
+      <created>1704915087560</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1704915087560</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add tf idf modif on tf branch v2">
+      <option name="closed" value="true" />
+      <created>1704915416318</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1704915416318</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -129,7 +144,9 @@
     <MESSAGE value="mise à jour de la fonction clean" />
     <MESSAGE value="à chier ne pas envoyer" />
     <MESSAGE value="added a gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="added a gitignore" />
+    <MESSAGE value="add tf idf modif on tf branch" />
+    <MESSAGE value="add tf idf modif on tf branch v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="add tf idf modif on tf branch v2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
